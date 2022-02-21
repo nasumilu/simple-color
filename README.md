@@ -24,7 +24,6 @@ or with npm
 ```sh
 npm run build
 ```
-Then open (`Ctl+O`) your browser to the build/index.html
 
 or to watch for changes use (development)
 ```sh
