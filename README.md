@@ -11,9 +11,18 @@ is to update the colors from input[type="text"].
 ```sh
 yarn install
 ```
+or with npm
+```sh
+npm install
+```
 3. Bundle using Parcel
 ```sh
 yarn build
+```
+or with npm
+
+```sh
+npm run build
 ```
 Then open (`Ctl+O`) your browser to the build/index.html
 
@@ -21,5 +30,10 @@ or to watch for changes use (development)
 ```sh
 yarn start
 ```
+or with npm
+```sh
+npm run start
+```
+
 Then open the browser to `http://localhost:1234` or which ever port
 is showing in the terminal
