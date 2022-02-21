@@ -1,0 +1,15 @@
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.color-swatch {
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    height: 1em;
+    margin-bottom: 0.25em;
+}
+
+input[type="color"] {
+    width: 150px;
+    height: 150px;
+}

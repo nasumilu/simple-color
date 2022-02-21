@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Color App</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="module" defer src="js/index.js"></script>
+  </head>
+  <body>
+    
+    <div class="container w-50 m-auto pt-5">
+      <h1>Simple Color Object</h1>
+        <div class="row">
+          <form name="my_color"></form>
+            <div class="col-8">
+
+              <div class="row mb-3" data-color-property="red">
+                <label for="red-color" class="col-sm-2 col-form-label">Red</label>
+                <div class="col-sm-8">
+                  <input type="range" class="form-range" min="0" max="255" step="1" value="51">
+                </div>
+                <div class="col-sm-2" role="label">51</div>
+              </div>
+
+
+              <div class="row mb-3" data-color-property="green">
+                <label for="green-color" class="col-sm-2 col-form-label">Green</label>
+                <div class="col-sm-8">
+                  <input type="range" class="form-range" min="0" max="255" step="1" value="102">
+                </div>
+                <div class="col-sm-2" role="label">102</div>
+              </div>
+
+              <div class="row mb-3" data-color-property="blue">
+                <label for="blue-color" class="col-sm-2 col-form-label">Blue</label>
+                <div class="col-sm-8">
+                  <input type="range" class="form-range" min="0" max="255" step="1" value="153">
+                </div>
+                <div class="col-sm-2" role="label">153</div>
+              </div>
+
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="hex-color"></span>
+                <input type="text" name="hex-notation" id="hex-notation" readonly class="form-control" aria-label="hexidecimal color value">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="rgb-color"></span>
+                <input type="text" name="rgb-notation" id="rgb-notation" readonly class="form-control" aria-label="rgb color value">
+              </div>
+            </div>
+            <div class="col-4">
+              <input type="color" value="#336699">
+            </div>
+        </form>
+        </div>
+    </div>
+
+  </body>
+</html>
